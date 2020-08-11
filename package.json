@@ -1,0 +1,31 @@
+{
+  "name": "javascriptfornoobs",
+  "version": "1.0.0",
+  "description": "anthology of algoritms and data structure on javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldoZM/javascriptForNoob.git"
+  },
+  "keywords": [
+    "date",
+    "structor",
+    "and",
+    "algorithms"
+  ],
+  "author": "AldoZM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AldoZM/javascriptForNoob/issues"
+  },
+  "homepage": "https://github.com/AldoZM/javascriptForNoob#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-jest": "^26.3.0",
+    "jest": "^26.3.0"
+  }
+}
