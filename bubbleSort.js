@@ -5,16 +5,19 @@
 * @return {Array} arr = []
 */
 function bubbleSort(arr) {
-    if (!arr) return arr
-    for (let i = 1; i < arr.length; i++) {
-        for (let j = i - 1; j < arr.length - 1; j++) {
-
-            if (arr[j] > arr[j + 1]) {
-                let tmp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = tmp;
+    if (!arr?.length) return arr;
+    // Here I add a 'for' to go over the array into the 0 to 'n'
+    for (let j = 0; j < arr.length; j++)
+        //In this section check the array 
+        for (let i = 0; i < arr.length - 1; i++) {
+            // Compare
+            if (arr[i + 1] < arr[i]) {
+                //swap
+                [arr[i + 1], arr[i]] = [arr[i], arr[i + 1]]
             }
+
         }
-    }
+    // Return value
+    return arr;
 }
 export default bubbleSort; 
