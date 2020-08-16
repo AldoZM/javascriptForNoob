@@ -4,7 +4,7 @@
   "description": "anthology of algoritms and data structure on javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
